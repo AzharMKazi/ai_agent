@@ -1,0 +1,6 @@
+streamlit
+langgraph
+langchain
+langchain-community
+beautifulsoup4
+requests
