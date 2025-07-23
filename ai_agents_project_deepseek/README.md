@@ -11,14 +11,7 @@ This project is a multi-agent system built with **LangGraph** and **Streamlit** 
 
 ## 🧠 Agent Workflow
 
-```mermaid
-graph TD
-    A[User Query] --> B[Search Agent (Top 20 URLs)]
-    B --> C[Scraping Agent (Get page text)]
-    C --> D[Summarization Agent]
-    D --> E[Synthesis Agent]
-    E --> F[Optimized Final Response]
-```
+<pre lang="mermaid"> ```mermaid graph TD A[User Query] --> B[Search Agent (Top 20 URLs)] B --> C[Scraping Agent (Get page text)] C --> D[Summarization Agent] D --> E[Synthesis Agent] E --> F[Optimized Final Response] ``` </pre>
 
 ---
 
